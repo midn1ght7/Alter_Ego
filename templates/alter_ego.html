@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html allow="autoplay">
+<head>
+    <title>Alter Ego</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+          crossorigin="anonymous">
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='scripts.js')}}"></script>
+    <script>
+    function on_load(ae_sprites) 
+    {
+        var current_user_ = "{{current_user}}";
+        //var bg_paths_ = bg_paths;
+        var ae_sprites_ = ae_sprites;
+        
+        document.getElementById("chihiro_sprite").src=ae_sprites_[0];
+        document.getElementById("label_user").innerHTML=current_user_;
+    };
+    </script>
+    <link href="../static/css/stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="on_load({{ alter_ego_sprites }})">
+    <div id = "main_images">
+        <img id="background" src="static/background/bg_1.jpeg">
+        <img id="chihiro_sprite">
+        <img id="textbox" src="static/over/TextBox.png">
+        <img id="shadow" src="static/over/Shadow.png">
+        <img id="alterego_pixel" src="static/over/AlterEgoPixel.png">
+        <img id="scanlines" src="static/over/ScanLinesStatic.png">
+    </div>  
+    <div class = "main_functions">
+        <form name = "input_form" autocomplete="off">
+            <input type="text" id="input_text" name="input_text_nm" spellcheck="false" style="font-family: 'VT323'" />>
+        </form>
+        <label id="label_user"></label>
+        <label id="label_alter_ego" style="visibility: hidden">Alter Ego</label>
+        <label id="output_text"></label>
+    </div>
+
+</body>
+
+</html>

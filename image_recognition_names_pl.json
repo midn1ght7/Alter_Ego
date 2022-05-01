@@ -1,0 +1,88 @@
+{"recognition_names": [
+        {"tag": "Asahina",
+         "responses": ["Milo Cie znow widziec Asahina-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Enoshima",
+         "responses": ["Milo Cie znow widziec Enoshima-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Fujisaki",
+         "responses": ["Good to see you again, Mistrzu!"],
+         "sprites": [1],
+         "sounds": [19]
+        },
+        {"tag": "Fukawa",
+         "responses": ["Milo Cie znow widziec Fukawa-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Hagakure",
+         "responses": ["Milo Cie znow widziec Hagakure-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Ikusaba",
+         "responses": ["Nie znam Cie... Ale z tego co wiem, to nazywasz sie Mukuro Ikusaba."],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Ishimaru",
+         "responses": ["Milo Cie znow widziec Ishimaru-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Kirigiri",
+         "responses": ["Milo Cie znow widziec Kirigiri-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Kuwata",
+         "responses": ["Milo Cie znow widziec Kuwata-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Ludenberg",
+         "responses": ["Milo Cie znow widziec Ludenberg-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Maizono",
+         "responses": ["Milo Cie znow widziec Maizono-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Naegi",
+         "responses": ["Milo Cie znow widziec Naegi-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Ogami",
+         "responses": ["Milo Cie znow widziec Ogami-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Owada",
+         "responses": ["Milo Cie znow widziec Owada-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Togami",
+         "responses": ["Milo Cie znow widziec Togami-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Yamada",
+         "responses": ["Milo Cie znow widziec Yamada-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Unknown",
+         "responses": ["Przepraszam, nie rozpoznaje Cie..."],
+         "sprites": [5],
+         "sounds": [28]
+        }
+   ]
+}

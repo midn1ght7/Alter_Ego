@@ -1,0 +1,136 @@
+@font-face 
+{
+    font-family: 'VT323';
+    src: url('VT323-Regular.woff2') format('woff2'),
+        url('VT323-Regular.woff') format('woff'),
+        url('VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+textarea, input, button, select { font-family: 'inherit'; font-size: inherit; }
+
+input:focus 
+{ 
+    outline: none !important;
+}
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+html
+{
+  background-color: #040404;
+}
+body 
+{
+  overflow:hidden;
+  animation: fadeIn 2s linear;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#background
+{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+}
+#chihiro_sprite
+{
+  animation: fadeIn 1s linear;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  animation: move 2s infinite;
+}
+#textbox
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    width: 100vw;
+}
+#shadow
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    width: 100vw;
+}
+#alterego_pixel
+{
+  position: absolute;
+  top: 33px;
+  left: 66px;
+}
+ #scanlines
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.main_functions
+{
+  font-family: 'VT323'; 
+  font-weight: normal; 
+  font-style: normal;
+}
+#input_text
+{
+  position: absolute;
+  top: 855px;
+  left: 400px;
+  height: 185px;
+  width: 1350px;
+  font-size:400%;
+  background: transparent;
+  border: none;
+}
+#label_user
+{
+  position: absolute;
+  top: 930px;
+  left: 185px;
+  font-size:220%;
+  background: transparent;
+  border: none;
+}
+#label_alter_ego
+{
+  position: absolute;
+  top: 930px;
+  left: 185px;
+  font-size:220%;
+  background: transparent;
+  border: none;
+}
+#output_text
+{
+  position: absolute;
+  top: 916px;
+  left: 400px;
+  font-size:400%;
+  max-width: 1350px;
+  background: transparent;
+  border: none;
+}
+@keyframes move {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 5px;
+  }
+}

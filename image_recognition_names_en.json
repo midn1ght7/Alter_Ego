@@ -1,0 +1,88 @@
+{"recognition_names": [
+        {"tag": "Asahina",
+         "responses": ["Nice to see you again Asahina-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Enoshima",
+         "responses": ["Nice to see you again Enoshima-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Fujisaki",
+         "responses": ["Good to see you again, Master!"],
+         "sprites": [1],
+         "sounds": [19]
+        },
+        {"tag": "Fukawa",
+         "responses": ["Nice to see you again Fukawa-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Hagakure",
+         "responses": ["Nice to see you again Hagakure-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Ikusaba",
+         "responses": ["I can't seem to recognise you... But I know your name is Mukuro Ikusaba."],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Ishimaru",
+         "responses": ["Nice to see you again Ishimaru-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Kirigiri",
+         "responses": ["Nice to see you again Kirigiri-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Kuwata",
+         "responses": ["Nice to see you again Kuwata-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Ludenberg",
+         "responses": ["Nice to see you again Ludenberg-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Maizono",
+         "responses": ["Nice to see you again Maizono-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Naegi",
+         "responses": ["Nice to see you again Naegi-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Ogami",
+         "responses": ["Nice to see you again Ogami-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Owada",
+         "responses": ["Nice to see you again Owada-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Togami",
+         "responses": ["Nice to see you again Togami-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+		{"tag": "Yamada",
+         "responses": ["Nice to see you again Yamada-san!"],
+         "sprites": [1],
+         "sounds": [28]
+        },
+        {"tag": "Unknown",
+         "responses": ["Sorry, I don't recognize you..."],
+         "sprites": [5],
+         "sounds": [28]
+        }
+   ]
+}

@@ -1,0 +1,71 @@
+@font-face 
+{
+    font-family: 'VT323';
+    src: url('VT323-Regular.woff2') format('woff2'),
+        url('VT323-Regular.woff') format('woff'),
+        url('VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+textarea, input, button, select { font-family: 'inherit'; font-size: inherit; }
+
+input:focus 
+{ 
+    outline: none !important;
+}
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+html
+{
+  background-color: #040404;
+}
+body 
+{
+  overflow:hidden;
+  background-color: #040404;
+}
+#alterego_pixel
+{
+  position: absolute;
+  top: 33px;
+  left: 66px;
+}
+#alteregostart_pixel
+{
+  animation: pulse 4s infinite;
+  position: absolute;
+  top: 251px;
+  left: 48px;
+}
+#scanlines
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#link_for_ae
+{
+  position: absolute;
+  top: 251px;
+  left: 48px;
+  width: 247px;
+  height: 64px;
+}
+
+@keyframes pulse
+{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

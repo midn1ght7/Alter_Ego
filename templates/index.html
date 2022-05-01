@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html allow="autoplay">
+<head>
+    <title>Alter Ego</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+          crossorigin="anonymous">
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='scripts_index.js')}}"></script>
+    <link href="../static/css/stylesheet_index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id = "main_images">
+        <img id="alterego_pixel" src="static/over/AlterEgoPixel.png">
+        <img id="alteregostart_pixel" src="static/over/AlterEgoStartPixel.png">
+        <img id="scanlines" src="static/over/ScanLinesStatic.png">
+        <a href=alter_ego id="link_for_ae"></a>
+    </div>  
+</body>
+
+</html>
